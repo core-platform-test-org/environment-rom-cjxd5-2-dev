@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: core-platform-test-org
+    provider: github
+    repository: lyon
+  name: core-platform-test-org-lyon
+spec:
+  description: Imported application for core-platform-test-org/lyon
+  httpCloneURL: https://github.com/core-platform-test-org/lyon.git
+  org: core-platform-test-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: lyon
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/core-platform-test-org/lyon.git
