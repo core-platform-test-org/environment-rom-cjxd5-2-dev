@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: core-platform-test-org
+  repo: lyon
+  url: https://github.com/core-platform-test-org/lyon.git
+  version: ""
+  versionURL: ""
