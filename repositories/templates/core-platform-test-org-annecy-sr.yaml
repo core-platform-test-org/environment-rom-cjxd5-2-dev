@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: core-platform-test-org
+    provider: github
+    repository: annecy
+  name: core-platform-test-org-annecy
+spec:
+  description: Imported application for core-platform-test-org/annecy
+  httpCloneURL: https://github.com/core-platform-test-org/annecy.git
+  org: core-platform-test-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: annecy
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/core-platform-test-org/annecy.git
