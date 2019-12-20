@@ -17,3 +17,9 @@ dependencies:
   url: https://github.com/core-platform-test-org/bdd-nh-1576851995.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: core-platform-test-org
+  repo: bdd-nh-1576852709
+  url: https://github.com/core-platform-test-org/bdd-nh-1576852709.git
+  version: ""
+  versionURL: ""
