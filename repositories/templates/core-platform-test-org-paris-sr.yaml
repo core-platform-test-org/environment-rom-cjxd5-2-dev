@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: core-platform-test-org
+    provider: github
+    repository: paris
+  name: core-platform-test-org-paris
+spec:
+  description: Imported application for core-platform-test-org/paris
+  httpCloneURL: https://github.com/core-platform-test-org/paris.git
+  org: core-platform-test-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: paris
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/core-platform-test-org/paris.git
